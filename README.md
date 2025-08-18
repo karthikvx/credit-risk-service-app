@@ -50,6 +50,20 @@ cd credit-risk-service-app
 pip install -r requirements.txt
 ```
 
+### To Run the Demo Without AWS:
+
+No AWS Setup Needed: You don't need to configure AWS credentials or have an AWS account.
+Run the Code: Simply execute python main.py as instructed.
+
+### Important Notes:
+
+Real-World Use: For a real-world deployment, you would need to:
+Set up AWS credentials: Configure your AWS access key and secret key.
+Create Kinesis Stream: Create a Kinesis stream named credit-risk-stream.
+Deploy SageMaker Models: Train and deploy PD, LGD, and EAD models as SageMaker endpoints.
+Mocked Data: Remember that the demo results are based on mock data and predictions. The actual performance of the system would depend on the quality of your trained models and real-world data.
+
+
 ## Usage
 
 Run the demo script to see the system in action:
